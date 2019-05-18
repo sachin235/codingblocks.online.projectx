@@ -13,7 +13,7 @@
   
   <div class="row justify-content-center">
     {{#if taskMoreCourses.isRunning}}
-      <button class="button-dashed">Loading...</button>
+      <img src="https://i440.photobucket.com/albums/qq126/sekhargreen/animated_loading.gif" alt="LOADING...">
     {{else if (lt limit count)}}
       <button class="button-dashed" {{action "loadMore"}}>Load More</button>
     {{/if}} 
